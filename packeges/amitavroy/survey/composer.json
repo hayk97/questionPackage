@@ -1,0 +1,25 @@
+{
+    "name": "hayk/amitavroy",
+    "description": "valodik",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hayk1997",
+            "email": "matchkalyan.hayk@bk.ru"
+        }
+    ],
+    "version":"1.0.0",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Amitavroy\\Survey\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Amitavroy\\Survey\\Test\\": "tests/"
+        }
+    },
+    "prefer-stable": true
+}
