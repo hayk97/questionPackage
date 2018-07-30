@@ -3,6 +3,7 @@
 namespace Aist\Question\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\User;
 use Illuminate\Http\Request;
 
 class QuestionsController extends Controller
@@ -14,8 +15,9 @@ class QuestionsController extends Controller
      */
     public function index()
     {
-  dd(123);
-  return;
+        $questions = Question::all();
+
+  return view('question::index', compact('questions'));
     }
 
     /**
