@@ -1,6 +1,7 @@
 {
-    "name": "hayk/aist",
-    "description": "valodik",
+    "name": "levon/aist",
+    "description": "levon",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
@@ -8,18 +9,19 @@
             "email": "matchkalyan.hayk@bk.ru"
         }
     ],
-    "version":"1.0.0",
+    "autoload": {
+      "psr-4": {
+          "Aist\\Question\\": "src/"
+      }
+    },
+
+    "version": "1.0.0",
     "minimum-stability": "dev",
     "require": {},
-    "autoload": {
+    "prefer-stable": true,
+    "autoload-dev": {
         "psr-4": {
             "Aist\\Question\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Aist\\Question\\Test\\": "tests/"
-        }
-    },
-    "prefer-stable": true
+}
 }

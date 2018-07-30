@@ -150,7 +150,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Aist\Question\Providers\QuestionServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -159,7 +159,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Amitavroy\Survey\Providers\SurveyServiceProvider::class,
+
     ],
 
     /*

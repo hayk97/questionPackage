@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d0fe6b29b39d1292e6ee4474f42e4e9",
+    "content-hash": "ded8ca33ef01c2e760c23d5162479327",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -365,37 +365,6 @@
                 "trusted proxy"
             ],
             "time": "2018-02-07T20:20:57+00:00"
-        },
-        {
-            "name": "hayk/amitavroy",
-            "version": "1.0.0",
-            "dist": {
-                "type": "path",
-                "url": "packeges/amitavroy/survey",
-                "reference": "2368ed54437b691e75291f3f070441ac5e83bdcc",
-                "shasum": null
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Amitavroy\\Survey\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Amitavroy\\Survey\\Test\\": "tests/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hayk1997",
-                    "email": "matchkalyan.hayk@bk.ru"
-                }
-            ],
-            "description": "valodik"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -769,6 +738,37 @@
                 "storage"
             ],
             "time": "2018-05-07T08:44:23+00:00"
+        },
+        {
+            "name": "levon/aist",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "packages/aist/question",
+                "reference": "2d9fb208dfa4344ec0d4b3647ce8e5118bfe095e",
+                "shasum": null
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Aist\\Question\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Aist\\Question\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hayk1997",
+                    "email": "matchkalyan.hayk@bk.ru"
+                }
+            ],
+            "description": "levon"
         },
         {
             "name": "monolog/monolog",
