@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "ded8ca33ef01c2e760c23d5162479327",
@@ -745,7 +745,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/aist/question",
-                "reference": "2d9fb208dfa4344ec0d4b3647ce8e5118bfe095e",
+                "reference": "a3d2daf341a2e8c0a5e165080ca2a0b968cf4a53",
                 "shasum": null
             },
             "type": "project",
